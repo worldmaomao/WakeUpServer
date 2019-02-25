@@ -1,10 +1,11 @@
 # WakeUpServer
 可以唤醒局域网设备的restful服务
 # 依赖
-1.flask
-2.pyjwt
+* 1.flask
+* 2.pyjwt
 
 # 配置文件
+```
 [
   {
     "username": "admin",
@@ -23,6 +24,7 @@
     ]
   }
 ]
+```
 
 # jwt secret
 该secret用于jwt加解密，建议改掉
