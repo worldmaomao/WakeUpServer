@@ -1,0 +1,16 @@
+[
+  {
+    "username": "admin",
+    "password": "123456",
+    "devices": [
+      {
+        "device_name": "qnap_nas",
+        "broadcast_ip": "192.168.188.255",
+        "mac": "8C-EC-4B-63-18-FB"
+      }
+    ]
+  }
+]
+
+
+
