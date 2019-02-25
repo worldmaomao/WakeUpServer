@@ -1,5 +1,6 @@
 # WakeUpServer
-可以唤醒局域网设备的restful服务
+唤醒局域网设备的restful服务
+
 # 依赖
 * flask
 * pyjwt
@@ -68,6 +69,9 @@ post body json
   message: "ok",
   data: null
 }
+
+# 启动
+nohup python server.py > /dev/null 2>&1 &
 
 # 其他
 * 和frp配合，可实现内网设备唤醒
